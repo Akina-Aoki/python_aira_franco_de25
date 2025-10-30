@@ -2,7 +2,7 @@ class AnnotatePlot:
     pass
 
 np.random.seed(42)
-x = np.linspace(0, 10, 100)
+x = np.linspace(0, 10, 100) # start, skip, stop)
 y = 2 * x + 5 + np.random.normal(0, 2, size=len(x))
 
 annotate = AnnotatePlot(fig, ax)
