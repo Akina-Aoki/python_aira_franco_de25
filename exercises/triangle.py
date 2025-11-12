@@ -38,7 +38,8 @@ class Triangle:
     #     pass  
 
     def __eq__(self, other):
-        pass
+        if not isinstance(self, other):
+            return NotImplemented
 
     def __lt__(self, other):
         pass
